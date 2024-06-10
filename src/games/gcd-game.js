@@ -2,12 +2,14 @@ import startGame from '../index.js';
 import randoMumbers from '../randoMumbers.js';
 
 const getGreatestCommonDivisor = (firstNum, secondNum) => {
-  while (secondNum !== 0) {
-    const temp = secondNum;
-    secondNum = firstNum % secondNum;
-    firstNum = temp;
+  let a = firstNum;
+  let b = secondNum;
+  while (b !== 0) {
+    const temp = b;
+    b = a % b;
+    a = temp;
   }
-  return firstNum;
+  return a;
 };
 
 const gameDescription = 'Find the greatest common divisor of given numbers';

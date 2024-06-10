@@ -15,8 +15,7 @@ const generateRounds = () => {
   const operator = operators[randoMumbers(0, operators.length - 1)];
 
   const question = `${firstNumber} ${operator} ${secondNumber}`;
-  const resultOfExpression = getResultOfExpression(firstNumber, operator, secondNumber);
-  const correctAnswer = resultOfExpression.toString();
+  const correctAnswer = getResultOfExpression(firstNumber, operator, secondNumber).toString();
 
   return [question, correctAnswer];
 };
