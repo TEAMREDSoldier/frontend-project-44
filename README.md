@@ -1,7 +1,6 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/TEAMREDSoldier/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/TEAMREDSoldier/frontend-project-44/actions)
 <a href="https://codeclimate.com/github/TEAMREDSoldier/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/e7c53736bd6d612f9aad/maintainability" /></a>
-<a href="https://codeclimate.com/github/TEAMREDSoldier/Mind_Games/maintainability"><img src="https://api.codeclimate.com/v1/badges/d64210de8ee29ebe79e2/maintainability" /></a>
 
 # Проект "Игры Разума" JavaScript
 "Игры разума" — это пять консольных игр, основанных на принципах популярных приложенях для тренировки мозга и развития скорости мышления. В каждой игре необходимо отвечать на вопросы, давая правильные ответы. Игра считается пройденной после трех правильных ответов подряд. Неправильные ответы завершают игру и предлагают начать её заново.
