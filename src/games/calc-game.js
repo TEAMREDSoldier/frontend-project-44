@@ -26,7 +26,7 @@ const generateRounds = () => {
 
   return [
     `${firstNumber} ${operator} ${secondNumber}`,
-    getResultOfExpression(firstNumber, operator, secondNumber).toString()
+    getResultOfExpression(firstNumber, operator, secondNumber).toString(),
   ];
 };
 
